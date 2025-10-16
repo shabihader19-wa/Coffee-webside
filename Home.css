@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+body{
+      background-color: #5c1a1a;
+}
+/* navbar start */
+.navbar{
+    width: 90%;
+    height: 7vh;
+    margin: auto;
+    background: transparent;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo h1{
+    color: white;
+    font-weight: bold;
+}
+
+.link{
+    display: flex;
+    margin-right: 19%;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10%;
+    font-size: larger;
+    width: 120%;
+    height: 8vh;
+    padding-top:10px ;
+
+}
+
+.navbarmanu {
+     margin: 10%;
+     height: 10vh;
+     width: 100%;
+}  
+.navbarmanu :hover{
+    border: 2px solid  transparent;
+    color: black;
+    background-color: #f2a007;
+    cursor: pointer;
+    transition: 0.9s;
+    width: 130%;
+    border-radius: 50%;
+    height: 8vh;
+    margin-bottom: 0px;
+    padding-top: 15px; 
+}
+/* navbar end */
+/* hero section */
+.Herosection{
+    margin: 5%;
+    height: 90vh;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    display: flex;
+}
+.contan{
+         width: 40%;
+         height: 20vh;
+         color: white;
+        
+}
+.contan h1{
+    margin-top: 40%;
+    color:#f2a007 ;
+    margin-left: 20%;
+}
+.contan h2, p{
+      margin-top: 20px;
+      color: white;
+      margin-left: 20%;
+      line-height: 1.5;
+}
+button{
+    margin-top: 25px;
+    width: 15%;
+    height: 10vh;
+    margin: 5%;
+    border: 2px solid transparent;
+    border-radius: 40%;
+    background-color: #f2a007;
+    color: white;
+    margin-left: 20%;
+}
+.section2{
+            width: 50%;
+            height: 50%;
+            margin-left: 10%;
+            margin-top: 15%;
+}
+.section2 img{
+    width: 100%;
+    height: 100%;
+}
